@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Treino Engraçado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="imagem-container">
+            <img id="imagem-treino" src="./imagens/Treino1Inicial.jpg" alt="Imagem de treino">
+        </div>
+        <div id="botoes-container">
+            <button id="botao-levantar" onclick="levantarPeso()">Levantar o peso</button>
+            <button id="botao-proximo" onclick="proximoPeso()" style="display: none;">Deseja levantar mais peso?</button>
+            <button id="botao-misterioso" onclick="revelarSurpresa()" style="display: none;">?</button>
+        </div>
+    </div>
+    <audio id="som-peido1" src="./sons/peido1.mp3"></audio>
+    <audio id="som-peido2" src="./sons/peido2.mp3"></audio>
+    <audio id="som-explosao" src="./sons/Explosão.mp3"></audio>
+    <audio id="som-mj" src="./sons/MJ EXTORADO.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
